@@ -1,0 +1,8 @@
+INSTALACIÓN
+
+1. Generar el ejecutable: Desde la carpeta ".\acortador" ejecutar el comando mvn package
+2. Desplegar el fichero acortador.war generado en la carpeta ".\acortador\target\" 
+	Este proceso es específico del contenedor JEE empleado pero suele poder realizarse desde la consola de administración.
+3. Se podrá acceder al cliente en la ruta <ruta_servidor>/acortador
+	Generalmente, en un servidor local como wildfly o glassfish la ruta por defecto será: http://localhost:8080/acortador
+4. Se podrá acceder al servicio web mediante peticiones GET o POST a la ruta http://localhost:8080/acortador/url
